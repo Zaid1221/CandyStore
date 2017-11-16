@@ -131,10 +131,8 @@ public class MainActivity extends AppCompatActivity {
     {
       // retrieve price of the candy and add it to total
       total += ( ( CandyButton ) v ).getPrice( );
-      String pay =
-        NumberFormat.getCurrencyInstance( ).format( total );
-      Toast.makeText( MainActivity.this, pay,
-          Toast.LENGTH_LONG ).show( );
+      String pay = NumberFormat.getCurrencyInstance( ).format( total );
+      Toast.makeText( MainActivity.this, pay, Toast.LENGTH_LONG ).show( );
     }
   }
 }

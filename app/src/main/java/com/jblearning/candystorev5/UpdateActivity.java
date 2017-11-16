@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class UpdateActivity extends AppCompatActivity {
+  public class UpdateActivity extends AppCompatActivity {
   DatabaseManager dbManager;
 
   public void onCreate( Bundle savedInstanceState ) {

@@ -51,8 +51,7 @@ public class DeleteActivity extends AppCompatActivity {
     layout.addView( scrollView );
 
     // add back button at bottom
-    RelativeLayout.LayoutParams params
-        = new RelativeLayout.LayoutParams(
+    RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
         RelativeLayout.LayoutParams.WRAP_CONTENT,
         RelativeLayout.LayoutParams.WRAP_CONTENT );
     params.addRule( RelativeLayout.ALIGN_PARENT_BOTTOM );
